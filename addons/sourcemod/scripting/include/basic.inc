@@ -109,12 +109,12 @@ methodmap Basic < StringMap
 		this.SetValue(membername, value);
 	}
 
-	public bool GetVector(const char[] membername, float[3] vector)
+	public bool GetVector(const char[] membername, float vector[3])
 	{
 		return this.GetArray(membername, vector, sizeof(vector));
 	}
 
-	public void SetVector(const char[] membername, const float[3] value)
+	public void SetVector(const char[] membername, const float value[3])
 	{
 		this.SetArray(membername, value, sizeof(value));
 	}
