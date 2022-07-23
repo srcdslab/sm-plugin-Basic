@@ -85,16 +85,6 @@ methodmap Basic < StringMap
 		this.SetValue(membername, value);
 	}
 
-	public bool GetString(const char[] membername, char[] buffer, int length)
-	{
-		return this.GetString(membername, buffer, length);
-	}
-
-	public void SetString(const char[] membername, const char[] value)
-	{
-		this.SetString(membername, value);
-	}
-
 	public Handle GetHandle(const char[] membername)
 	{
 		Handle value;
